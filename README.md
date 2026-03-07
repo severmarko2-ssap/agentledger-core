@@ -23,6 +23,7 @@ ledger.record_event({
 })
 
 ledger.commit()
+```
 
 ## Features
 
