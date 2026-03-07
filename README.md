@@ -23,32 +23,9 @@ ledger.record_event({
 })
 
 ledger.commit()
-## Features
 
-- **Append-only Event Ledger** - Immutable record of agent execution
-- **Hash Chain Integrity** - SHA-256 hash chain for tamper detection
-- **Deterministic Replay** - Replay runs from recorded outputs
-- **Run Inspection** - Timeline and failure analysis
-- **Run Diff** - Compare runs to identify divergences
 
-## What AgentLedger Core is NOT
 
-AgentLedger Core defines a minimal execution ledger format.
-
-It does NOT define:
-
-- Agent cognition
-- Planning systems
-- Memory architectures
-- Orchestration frameworks
-- LLM adapters
-- Deployment systems
-
-## Installation
-
-```bash
-pip install agentledger-core
-```
 
 ## Quick Start
 
