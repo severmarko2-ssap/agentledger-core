@@ -4,8 +4,25 @@
 
 Record. Inspect. Replay. Diff.
 
+Makes AI agent runs reproducible and auditable.
+
 AgentLedger Core provides an append-only execution ledger with hash chain integrity for AI agent runs.
 
+## Example
+
+```python
+from agentledger import Ledger
+
+ledger = Ledger()
+
+ledger.record_event({
+    "type": "decision",
+    "agent": "research_agent",
+    "action": "search",
+    "query": "latest AI safety papers"
+})
+
+ledger.commit()
 ## Features
 
 - **Append-only Event Ledger** - Immutable record of agent execution
