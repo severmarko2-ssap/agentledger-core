@@ -186,6 +186,11 @@ agent replay run_001
 # Diff two runs
 agent diff run_a run_b
 ```
+## AgentLedger Core vs Full
+
+**Core (this repo)** — execution ledger, replay, diff, inspection. Open source, MIT.
+
+**AgentLedger Full** — belief state capture, cognitive graph, certification, governance, temporal cognition. 
 
 ## License
 
