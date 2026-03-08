@@ -1,12 +1,13 @@
 # AgentLedger Core
 
-**Deterministic Run Ledger for AI Agents**
+Your agent made a wrong call.  
+The logs show what it did.  
+They don't show what it believed when it decided.
 
-Record. Inspect. Replay. Diff.
+**AgentLedger captures both.**
 
+Record. Inspect. Replay. Diff.  
 Makes AI agent runs reproducible and auditable.
-
-AgentLedger Core provides an append-only execution ledger with hash chain integrity for AI agent runs.
 
 ## Example
 
